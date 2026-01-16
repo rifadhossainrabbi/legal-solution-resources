@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&display=swap"
+    rel="stylesheet">
+  <title>Document</title>
+</head>
+
+<body>
+  <header>
+
+    <!-- Navbar  -->
+    <nav class="flex justify-between items-center mx-auto my-[50px] w-[1170px]">
+      <!-- logo -->
+      <div class="">
+        <img src="./images/logo2.png" alt="">
+      </div>
+
+      <!-- nav links -->
+      <ul class="flex gap-[30px] text-[18px]">
+        <li><a href="">Home</a></li>
+        <li><a href="">Services &gt;</a></li>
+        <li><a href="">Cases &gt;</a></li>
+        <li><a href="">Blog &gt;</a></li>
+        <li><a href="">Contact us &gt;</a></li>
+      </ul>
+
+      <!-- nav button -->
+      <div
+        class="bg-[rgba(182,140,90,1)] hover:bg-transparent border border-transparent text-white hover:text-black rounded-[8px]">
+        <button
+          class="px-[29px] py-[18px] border-[2px] border-transparent hover:border-red-500 rounded-[8px] cursor-pointer transition duration-300">
+          Free Consultation
+        </button>
+      </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <div class="hero_section flex justify-center items-center  bg-[linear-gradient(to_top,rgba(17,17,17,1),rgba(17,17,17,0)),url('/images/banner.png')] bg-cover bg-center w-[1170px] mx-auto my-0 h-[550px]">
+      <div class="w-[692px]">
+        <h1  class="text-white text-center font-extrabold text-[72px] leading-[85px]" style="font-family: 'EB Garamond', serif;">We Provide Effective Legal Solutions</h1>
+        <p class="w-[679px] text-center text-[#E7E7E7] text-[16px] leading-[26px] mt-[24px] mb-[32px]">There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in
+          some form,
+          by injected humour.</p>
+
+        <!-- hero form section -->
+        <div class=" w-[674px] text-white flex gap-[24px]">
+          <form action="" class="">
+            <input class="bg-white border-[2px] border-transparent hover:border-[2px] hover:border-[#dddddd] hover:bg-transparent text-[#A0A0A0] p-[20px] w-[500px] h-[64px] rounded-[8px]" type="text" placeholder="Search your services">
+          </form>
+
+          <!-- button -->
+          <div class= " bg-[rgba(182,140,90,1)] hover:bg-transparent border border-transparent text-white hover:text-white rounded-[8px]  text-center">
+            <button class="px-[49px] py-[17px] border-[2px] border-transparent hover:border-[#dddddd] rounded-[8px] cursor-pointer">Search</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </header>
+</body>
+
+</html>

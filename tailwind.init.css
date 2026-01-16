@@ -1,0 +1,19 @@
+@import "tailwindcss";
+
+/** @type {import('tailwindcss').Config} */
+module.exports= {
+  theme: {
+    extend: {
+      fontFamily: {
+        "EB Garamond": ['EB Garamond', 'serif'], // ✅ quotes fix
+      }
+
+      ,
+    }
+
+    ,
+  }
+
+  ,
+  plugins: [],
+}
